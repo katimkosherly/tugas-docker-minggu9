@@ -65,3 +65,20 @@ docker ps
 ### 4. Kesimpulan
 
 Melalui proyek ini, saya dapat memahami cara membuat Docker Image, menjalankan Image menjadi Container, dan menampilkan halaman profil melalui browser menggunakan alamat localhost:8082.
+
+
+## 5. Docker Hub
+
+Docker Image dari project ini berhasil diunggah ke Docker Hub.
+
+- **Username:** katimkosherly
+- **Nama Image:** profil-sherlymarcelakatimko
+- **Tag:** 1.0
+- **Link Docker Hub:** https://hub.docker.com/r/katimkosherly/profil-sherlymarcelakatimko
+
+### Perintah untuk Mengambil Image
+
+```bash
+docker pull katimkosherly/profil-sherlymarcelakatimko:1.0
+```
+
