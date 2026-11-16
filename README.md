@@ -12,13 +12,13 @@ Build Image merupakan proses membuat Docker Image berdasarkan instruksi yang ter
 Perintah yang digunakan:
 
 ```bash
-docker build -t profil-namaku:1.0 .
+docker build -t profil-sherlymarcelakatimko:1.0 .
 ```
 
 Keterangan:
 - `docker build` : Membuat Docker Image.
 - `-t` : Memberikan nama dan versi pada Image.
-- `profil-namaku` : Nama Image.
+- `profil-sherlymarcelakatimko` : Nama Image.
 - `1.0` : Versi Image.
 - `.` : Menunjukkan lokasi Dockerfile berada di folder saat ini.
 
@@ -35,15 +35,15 @@ Run Container merupakan proses menjalankan Docker Image menjadi sebuah Container
 Perintah yang digunakan:
 
 ```bash
-docker run -d --name profil-namaku -p 8082:80 profil-namaku:1.0
+docker run -d --name profil-sherlymarcelakatimko -p 8082:80 profil-sherlymarcelaktimko:1.0
 ```
 
 Keterangan:
 - `docker run` : Membuat dan menjalankan Container.
 - `-d` : Menjalankan Container di background.
-- `--name profil-namaku` : Memberikan nama Container.
+- `--name profil-sherlymarcelakatimko` : Memberikan nama Container.
 - `-p 8082:80` : Menghubungkan port 8082 pada komputer dengan port 80 pada Container.
-- `profil-namaku:1.0` : Image yang digunakan.
+- `profil-sherlymarcelakatimko:1.0` : Image yang digunakan.
 
 Untuk melihat Container yang sedang berjalan, gunakan perintah:
 
