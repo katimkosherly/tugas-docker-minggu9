@@ -1,5 +1,7 @@
 
 # TUGAS DOCKER MINGGU 9
+-Nama: Sherly Marcela Katimko
+-NIM: 202557201007
 ## Kontainerisasi Halaman Profil dengan Docker
 ### Deskripsi
 Proyek ini merupakan tugas praktikum Teknologi Open Source Minggu 9. Pada tugas ini saya membuat halaman profil pribadi menggunakan HTML, kemudian menjalankannya menggunakan Docker dengan bantuan Nginx.
